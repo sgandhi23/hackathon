@@ -1,4 +1,4 @@
-#include <stdio.h>//this program decodes (caesar) encrypted text
+#include <stdio.h>//this program decodes (caesar and backwards) encrypted text
 #include <cs50.h>
 #include <ctype.h>
 #include <string.h>
