@@ -33,13 +33,17 @@ int main(void)
             deciphered = true;
         }
     }
-    backwards(back);
+    backwards(back);//makes the word into backwards form, so if it is backwards it will restore the word to the original form.
     string firstback = back;
     first_word(firstback);
     if (check_word(firstback) == true)//if the word is a word
     {
         printf("%s\n", back);
         deciphered = true;
+    }
+    if (deciphered == false)//if the word is not a word
+    {
+        printf("This is not a word in caesar or backwards.");
     }
 }
 
